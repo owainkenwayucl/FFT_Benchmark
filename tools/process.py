@@ -5,7 +5,7 @@ filename = "output.txt"
 
 with open(filename, "r") as f:
 	while(True):
-   		try:
+		try:
 			threads_line = f.readline().strip()
 			threads = threads_line.split(": ")[1]
 			temp = f.readline()
