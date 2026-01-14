@@ -4,7 +4,7 @@
 
 # WARNING: This script intentionally truncates output.txt
 
-export MKL_NUM_THREADS=1 # fix for weird MKL threading bugs
+#export MKL_NUM_THREADS=1 # fix for weird MKL threading bugs
 
 rm -f output.txt
 for a in $(seq 1 $1)
